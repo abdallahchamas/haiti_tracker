@@ -1,0 +1,13 @@
+=========================
+ = HAITI TRACKER 0.0.1 =
+=========================
+
+Haiti Tracker is an aggregator that helps users to distill, rate and manage news related to a specific topic.  It was built in direct response to the earthquakes in Haiti, and the torrent of news, rumor and controversy that followed, to help filter an otherwise unmanageable storm of confusing reports.
+
+Haiti Tracker's underlying engine is Gregarious, an open source RSS feed reader. 
+
+======================
+ = DEVELOPMENT TEAM =
+======================
+
+Jon Gosier	Lead Dev/Designer	Director Swift River
