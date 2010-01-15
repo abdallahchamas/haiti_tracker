@@ -1,0 +1,85 @@
+REQUIREMENTS
+
+	   
+  Gregarius requires a relatively up-to-date PHP installation (>= 4.3.0) 
+  with xml (expat) support. It works fairly well with PHP5.
+  
+  Your PHP installation must support socket operations. See: 
+  http://ch2.php.net/manual/en/function.fsockopen.php
+
+  Additionally you will need access to a MySQL or a SQLite database.
+
+QUICK START
+
+
+    1.  If you are upgrading from an earlier version make sure you have a
+	backup copy of all the files you have modified
+        
+    2.  If you haven't already done so, download the latest release from
+	the sourceforge.net project site.
+	http://sourceforge.net/project/showfiles.php?group_id=98845
+   
+    3.  Unpack the Gregarius package inside your web directory:
+        
+        1.  If you are installing from a tar.gz archive:
+
+                tar xvfz rss-x.y.z.tar.gz
+        
+        2.  If you are installing from a zipped archive:
+
+                unzip rss-x.y.z.zip
+   
+   4.   cd to the created directory:
+
+            cd rss
+ 
+   5.   Choose your installation type:
+
+        1.  For a graphical installation, point your browser at the root
+            directory of your installation. Enter the necessary information
+            about your database structure and continue.
+
+        2.  For a manual installation, create a configuration file, based on the
+            sample:
+         
+            Copy the sample database configuration file:
+
+                cp dbinit.php.sample dbinit.php
+
+            Edit the dbinit.php file to match your database configuration. 
+            Make sure that the database exists and has the right permissions
+            and the database user you define owns privileges to create/modify
+            tables. Point your browser at the root directory of your 
+            installation. You should read a message informing you that the 
+            database schema has been generated.
+   
+   6.   If at this point, the browser returns a 500 internal server
+	error, then remove (or disable) the .htaccess file in this
+	directory and try again.
+
+	mv .htaccess .htaccess.tmp
+
+	See the FAQ http://wiki.gregarius.net/index.php/FAQ for more
+	information.
+
+	If the database user you defined lacks privileges to create
+	database tables you should import your schema manually: from the
+	command-line type (replacing database_user, database_host and
+	database_name)
+	
+	php schema.php --dump > dbstruct.sql
+        mysql -u database_user -h database_host -p database_name < dbstruct.sql
+	
+	
+   7.   Point your browser to the URL corresponding the install
+	location and click "Admin". After selecting a new password,
+	you can start adding feeds by pasting URLs of RSS or RDF feeds
+	into the "Add a feed" field. Alternatively you can import a
+	list of feeds using the OPML import feature.
+   
+   8.   This version of Gregarius comes with default password
+	protection, however you may wish to to strengthen it by using
+	a .htaccess file. 
+        
+	See http://wiki.gregarius.net/index.php/Password_Protection
+	for this purpose.
