@@ -1,0 +1,1102 @@
+# Macedonian translation for gregarius
+# Copyright (c) 2006 Rosetta Contributors and Canonical Ltd 2006
+# This file is distributed under the same license as the gregarius package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gregarius\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-15 14:19+0200\n"
+"PO-Revision-Date: 2006-12-19 10:08+0000\n"
+"Last-Translator: Goran Andreev <goranvelesmk@yahoo.com>\n"
+"Language-Team: Macedonian <mk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Rosetta-Export-Date: 2006-12-21 22:38+0000\n"
+
+#: admin/channels.php:39
+msgid "Feeds:"
+msgstr "Фидови:"
+
+#: admin/channels.php:43
+msgid "Add a feed:"
+msgstr "Додади фид:"
+
+#: admin/channels.php:46
+msgid "to folder:"
+msgstr "во папка:"
+
+#: admin/channels.php:48 admin/channels.php:100 admin/channels.php:134
+#: admin/channels.php:239 admin/channels.php:866 admin/channels.php:930
+#: cls/categories.php:60 cls/header.php:98 cls/wrappers/feeds.php:73
+#: themes/WittySparks_v1.0/mobile/nav.php:3 themes/default/mobile/nav.php:3
+msgid "Categories"
+msgstr "Категории"
+
+#: admin/channels.php:51 admin/channels.php:263 admin/channels.php:321
+#: admin/channels.php:381 admin/channels.php:439 admin/folders.php:41
+#: admin/folders.php:212 admin/folders.php:216 admin/folders.php:218
+msgid "Add"
+msgstr "Додади"
+
+#: admin/channels.php:52
+msgid "(Enter either the URL of an RSS feed or of a Website whose feed you wish to subscribe to)"
+msgstr "(Внеси го URL - то или RSS фидот на веб страницата на која што сакаш да се претплатиш)"
+
+#: admin/channels.php:62
+msgid "Subscribe in Gregarius!"
+msgstr "Претплати се на Gregarius!"
+
+#: admin/channels.php:62
+msgid "Subscription bookmarklet [<a href=\"http://www.squarefree.com/bookmarklets/\">?</a>]:"
+msgstr "Претплати се на bookmarklet [<a href=\"http://www.squarefree.com/bookmarklets/\">?</a>]:"
+
+#: admin/channels.php:69
+msgid "Register as Feed Handler [<a href=\"http://www.bengoodger.com/software/mb/feeds/feed-handling.html\">?</a>]:"
+msgstr "Регистрирај се на Feed Handler [<a href=\"http://www.bengoodger.com/software/mb/feeds/feed-handling.html\">?</a>]:"
+
+#: admin/channels.php:71
+msgid "Register Gregarius!"
+msgstr "Регистирај се на Gregarius!"
+
+#: admin/channels.php:97 admin/channels.php:131 admin/folders.php:46
+msgid "Title"
+msgstr "Наслов"
+
+#: admin/channels.php:98 admin/channels.php:132
+msgid "Folder"
+msgstr "Папка"
+
+#: admin/channels.php:99 admin/channels.php:133 admin/config.php:69
+#: admin/config.php:71 admin/plugins.php:99
+msgid "Description"
+msgstr "Опис"
+
+#: admin/channels.php:101 admin/channels.php:135
+msgid "Flags"
+msgstr "Знамиња"
+
+#: admin/channels.php:104 admin/channels.php:138 admin/channels.php:207
+#: admin/channels.php:251 admin/folders.php:49
+msgid "Move"
+msgstr "Премести"
+
+#: admin/channels.php:107 admin/channels.php:141 admin/config.php:70
+#: admin/config.php:72 admin/folders.php:52 admin/tags.php:141
+msgid "Action"
+msgstr "Акција"
+
+#: admin/channels.php:132 admin/channels.php:166 admin/channels.php:513
+#: admin/channels.php:571 admin/folders.php:67 admin/folders.php:71
+#: admin/folders.php:73 cls/wrappers/searchform.php:122
+#: cls/wrappers/toolkit.php:42 cls/wrappers/toolkit.php:81 opml.php:51
+#: opml.php:104
+msgid "Root"
+msgstr "Македонски"
+
+#: admin/channels.php:185 admin/channels.php:221 admin/folders.php:80
+#: admin/folders.php:84 admin/folders.php:86
+msgid "&uarr;"
+msgstr "&uarr;"
+
+#: admin/channels.php:187 admin/channels.php:223 admin/folders.php:84
+#: admin/folders.php:88 admin/folders.php:90
+msgid "&darr;"
+msgstr "&darr;"
+
+#: admin/channels.php:191 admin/channels.php:227 admin/channels.php:298
+#: admin/channels.php:327 admin/channels.php:356 admin/channels.php:385
+#: admin/config.php:160 admin/config.php:162 admin/folders.php:92
+#: admin/folders.php:96 admin/folders.php:98 admin/plugins.php:149
+#: admin/tags.php:153 admin/tags.php:180 admin/tags.php:181 ajax.php:209
+#: ajax.php:232 themes/WittySparks_v1.0/web/item.php:31
+#: themes/default/web/item.php:31 themes/lilina/web/item.php:55
+#: themes/lilina/web/item.php:111
+msgid "edit"
+msgstr "промени"
+
+#: admin/channels.php:194 admin/channels.php:230 admin/folders.php:96
+#: admin/folders.php:100 admin/folders.php:102 admin/tags.php:156
+msgid "delete"
+msgstr "избриши"
+
+#: admin/channels.php:203 admin/channels.php:249 admin/channels.php:860
+#: admin/channels.php:924
+msgid "In folder:"
+msgstr "Во папка:"
+
+#: admin/channels.php:211 admin/channels.php:265
+msgid "State:"
+msgstr "Држава:"
+
+#: admin/channels.php:213 admin/channels.php:267
+msgid "Deprecated"
+msgstr "Заостанато"
+
+#: admin/channels.php:216 admin/channels.php:270
+msgid "Private"
+msgstr "Приватни"
+
+#: admin/channels.php:218 admin/channels.php:259 admin/channels.php:272
+msgid "Set"
+msgstr "Постави"
+
+#: admin/channels.php:222 admin/channels.php:241 admin/channels.php:281
+#: admin/items.php:59 admin/items.php:72 admin/items.php:252
+#: admin/tags.php:164 admin/tags.php:165
+msgid "Delete"
+msgstr "Избриши"
+
+#: admin/channels.php:224 admin/channels.php:279 admin/tags.php:166
+#: admin/tags.php:167
+msgid "I'm sure!"
+msgstr "Јас сум сигурен!"
+
+#: admin/channels.php:238
+msgid "Folders"
+msgstr ""
+
+#: admin/channels.php:240
+msgid "State"
+msgstr ""
+
+#: admin/channels.php:257
+msgid "Categories:"
+msgstr ""
+
+#: admin/channels.php:293 admin/channels.php:321 admin/channels.php:351
+#: admin/channels.php:379 admin/channels.php:545 admin/channels.php:603
+#, php-format
+msgid "Adding %s to %s... "
+msgstr "Додавам %s во %s... "
+
+#: admin/channels.php:295 admin/channels.php:323 admin/channels.php:353
+#: admin/channels.php:381 admin/users.php:79 ajax.php:547 ajax.php:554
+msgid "OK"
+msgstr "ОК"
+
+#: admin/channels.php:341 admin/channels.php:399
+#, php-format
+msgid "The following feeds were found in <a href=\"%s\">%s</a>, which one would you like to subscribe?"
+msgstr "Следниве фидови се пронајдени во <a href=\"%s\">%s</a>, на кој фид сакате да се претплатите?"
+
+#: admin/channels.php:391 admin/channels.php:395 admin/channels.php:449
+#: admin/channels.php:453 admin/channels.php:630 admin/channels.php:688
+#, php-format
+msgid "I'm sorry, I don't think I can handle this URL: '%s'"
+msgstr ""
+
+#: admin/channels.php:408 admin/channels.php:444 admin/channels.php:466
+#: admin/channels.php:502 admin/config.php:204 admin/config.php:206
+#: admin/config.php:520 admin/config.php:522 admin/folders.php:168
+#: admin/folders.php:172 admin/folders.php:174 admin/folders.php:186
+#: admin/folders.php:190 admin/folders.php:192 admin/tags.php:60
+#: admin/tags.php:96 admin/themes.php:275
+msgid "Yes"
+msgstr "Да"
+
+#: admin/channels.php:433 admin/channels.php:443 admin/channels.php:491
+#: admin/channels.php:501 admin/config.php:208 admin/config.php:210
+#: admin/config.php:519 admin/config.php:521 admin/folders.php:175
+#: admin/folders.php:179 admin/folders.php:181 admin/folders.php:185
+#: admin/folders.php:189 admin/folders.php:191 admin/tags.php:66
+#: admin/tags.php:95
+msgid "No"
+msgstr "Не"
+
+#: admin/channels.php:441 admin/channels.php:499 admin/folders.php:183
+#: admin/folders.php:187 admin/folders.php:189 admin/tags.php:93
+#, php-format
+msgid "Are you sure you wish to delete '%s'?"
+msgstr "Дали сте сигурни дека сакате да го избришете '%s'?"
+
+#: admin/channels.php:454 admin/channels.php:512 admin/opml.php:81
+msgid "Import"
+msgstr "Импортирај"
+
+#: admin/channels.php:558 admin/channels.php:616 update.php:61
+msgid "Updating"
+msgstr "Ажирирање"
+
+#: admin/channels.php:828 admin/channels.php:892
+msgid "Edit the feed "
+msgstr "Промени го фидот "
+
+#: admin/channels.php:834 admin/channels.php:837 admin/channels.php:898
+#: admin/channels.php:901
+msgid "Added"
+msgstr "Додадено"
+
+#: admin/channels.php:835 admin/channels.php:838 admin/channels.php:899
+#: admin/channels.php:902 themes/WittySparks_v1.0/web/footer.php:17
+#: themes/default/web/footer.php:17
+msgid "Last Update"
+msgstr "Последно ажурирање"
+
+#: admin/channels.php:838 admin/channels.php:902 cls/wrappers/header.php:134
+msgid "Never"
+msgstr "Никогаш"
+
+#: admin/channels.php:841 admin/channels.php:905
+msgid "Title:"
+msgstr "Наслов:"
+
+#: admin/channels.php:850 admin/channels.php:914
+msgid "RSS URL:"
+msgstr "RSS URL:"
+
+#: admin/channels.php:851 admin/channels.php:856 admin/channels.php:915
+#: admin/channels.php:920
+msgid "(visit)"
+msgstr "(посети)"
+
+#: admin/channels.php:855 admin/channels.php:919
+msgid "Site URL:"
+msgstr "Сајт URL:"
+
+#: admin/channels.php:890 admin/channels.php:954
+msgid "This feed is <strong>private</strong>, only admins see it."
+msgstr "Овој фид е <strong>приватен</strong>, само администратори можат да го видат."
+
+#: admin/channels.php:898 admin/channels.php:962
+msgid "This feed is <strong>deprecated</strong>, it won't be updated anymore and won't be visible in the feeds column."
+msgstr ""
+
+#: admin/channels.php:905 admin/channels.php:969
+msgid "Description:"
+msgstr "Опис:"
+
+#: admin/channels.php:910 admin/channels.php:974
+msgid "Shown favicon:"
+msgstr "Прикажи favicon:"
+
+#: admin/channels.php:917 admin/channels.php:981
+msgid "(Leave blank for no icon)"
+msgstr "(Остави бланк доколку за да нема икона)"
+
+#: admin/channels.php:972 admin/channels.php:1036 admin/config.php:238
+#: admin/config.php:240 admin/config.php:257 admin/config.php:259
+#: admin/folders.php:126 admin/folders.php:130 admin/folders.php:132
+#: admin/plugins.php:170 admin/plugins.php:212 admin/tags.php:188
+#: admin/tags.php:189 admin/themes.php:173 admin/themes.php:285
+msgid "Submit Changes"
+msgstr "Внеси промени"
+
+#: admin/config.php:31 admin/config.php:32
+msgid "Configuration:"
+msgstr "Конфигурација:"
+
+#: admin/config.php:67 admin/config.php:69
+msgid "Key"
+msgstr "Клуч"
+
+#: admin/config.php:68 admin/config.php:70
+msgid "Value"
+msgstr "Вредност"
+
+#: admin/config.php:167 admin/config.php:169
+msgid "default"
+msgstr "Стандардно"
+
+#: admin/config.php:190 admin/config.php:192
+msgid "Invalid config key specified."
+msgstr "Инвалиден конфигурациски клуч е специфициран."
+
+#: admin/config.php:234 admin/config.php:236 admin/config.php:252
+#: admin/config.php:254
+msgid "Preview"
+msgstr "Преглед"
+
+#: admin/config.php:246 admin/config.php:248 admin/items.php:253
+#: admin/plugins.php:214 admin/themes.php:175 ajax.php:548 ajax.php:555
+msgid "Cancel"
+msgstr "Откажи"
+
+#: admin/config.php:332 admin/config.php:334 admin/config.php:480
+#: admin/config.php:482 admin/config.php:484
+msgid "False"
+msgstr "Неточно"
+
+#: admin/config.php:332 admin/config.php:334 admin/config.php:337
+#: admin/config.php:339 admin/config.php:474 admin/config.php:476
+#: admin/config.php:478
+msgid "True"
+msgstr "Точно"
+
+#: admin/config.php:368 admin/config.php:370
+msgid "Ooops, unknown config type: "
+msgstr "Ooops, непознат тип на конфигурација: "
+
+#: admin/config.php:442 admin/config.php:444 admin/config.php:467
+#: admin/config.php:469 admin/config.php:471 admin/config.php:473
+#: admin/config.php:485 admin/config.php:487
+msgid "Value for"
+msgstr "Вредност за"
+
+#: admin/config.php:517 admin/config.php:519
+#, php-format
+msgid "Are you sure you wish to reset the value for %s to its default '%s'?"
+msgstr "Дали сте сигурни дека сакате да ги ресетирате елементите за %s на почетно '%s'?"
+
+#: admin/folders.php:31
+msgid "Folders:"
+msgstr "Папки:"
+
+#: admin/folders.php:38
+msgid "Add a folder:"
+msgstr "Додади папка:"
+
+#: admin/folders.php:47 cls/channels.php:164 cls/header.php:97
+#: cls/wrappers/feeds.php:76 themes/WittySparks_v1.0/mobile/nav.php:2
+#: themes/default/mobile/nav.php:2 themes/milsi/feeds.php:1
+msgid "Feeds"
+msgstr "Фидови"
+
+#: admin/folders.php:123 admin/folders.php:127 admin/folders.php:129
+msgid "Folder name:"
+msgstr "Име на папката:"
+
+#: admin/folders.php:164 admin/folders.php:168 admin/folders.php:170
+msgid "You can't delete the Root folder"
+msgstr "Не може да се избрише Root папката"
+
+#: admin/folders.php:204 admin/folders.php:208 admin/folders.php:210
+#: admin/tags.php:113
+#, php-format
+msgid "You can't rename this item '%s' because such an item already exists."
+msgstr "Вие не можете да го преименувате овој елемент '%s' затоа што овој елемент веќе постои."
+
+#: admin/folders.php:281 admin/folders.php:285 admin/folders.php:287
+#, php-format
+msgid "Looks like you already have a folder called '%s'!"
+msgstr "Изгледа имате веќе папка која што се вика '%s'!"
+
+#: admin/index.php:202
+#, php-format
+msgid "<h1>Not Authorized!</h1>You are not authorized to access the administration interface. Please follow <a href=\"%s\">this link</a> back to the main page. Have  a nice day!"
+msgstr ""
+
+#: admin/index.php:219
+msgid "Dashboard"
+msgstr "Табла"
+
+#: admin/index.php:220
+msgid "feeds"
+msgstr "фидови"
+
+#: admin/index.php:221 author.php:41 cls/alltags.php:166 feed.php:1031
+#: feed.php:1043 feed.php:1061 feed.php:1073
+#: plugins/stickyflag/stickyflag.php:92 plugins/stickyflag/stickyflag.php:100
+#: state.php:36 state.php:39 state.php:42 tags.php:117 tags.php:121
+#: tags.php:131 tags.php:152 tags.php:170
+msgid "items"
+msgstr "елементи"
+
+#: admin/index.php:222
+msgid "config"
+msgstr "конфигурација"
+
+#: admin/index.php:223
+msgid "plugins"
+msgstr "додатоци"
+
+#: admin/index.php:224
+msgid "themes"
+msgstr "теми"
+
+#: admin/index.php:225
+msgid "folders"
+msgstr "папки"
+
+#: admin/index.php:226
+msgid "opml"
+msgstr "opml"
+
+#: admin/index.php:227 admin/tags.php:135 admin/tags.php:140 cls/header.php:99
+#: cls/taglist.php:69 tags.php:129 tags.php:147
+#: themes/WittySparks_v1.0/mobile/item.php:22
+#: themes/WittySparks_v1.0/web/item.php:28 themes/default/mobile/item.php:22
+#: themes/default/web/item.php:28 themes/lilina/web/item.php:52
+#: themes/lilina/web/item.php:108
+msgid "Tags"
+msgstr "Тагови"
+
+#: admin/index.php:234 cls/wrappers/header.php:143
+msgid "Logout"
+msgstr "Одлогирај се"
+
+#: admin/index.php:336
+msgid "Admin"
+msgstr "Админ"
+
+#: admin/items.php:36
+msgid "Items:"
+msgstr "Елементи:"
+
+#: admin/items.php:40
+msgid "Pruning"
+msgstr ""
+
+#: admin/items.php:42
+msgid "Delete items older than "
+msgstr "Избриши ги елементите постари од "
+
+#: admin/items.php:45 admin/items.php:83
+msgid "days"
+msgstr "денови"
+
+#: admin/items.php:46 admin/items.php:87
+msgid "months"
+msgstr "месеци"
+
+#: admin/items.php:47 admin/items.php:91
+msgid "years"
+msgstr "години"
+
+#: admin/items.php:49
+msgid "...from these feeds"
+msgstr "... од овие фидови"
+
+#: admin/items.php:52
+msgid "Delete Sticky items too: "
+msgstr "Избриши ги лепливите елементи исто така: "
+
+#: admin/items.php:54
+msgid "Delete Unread items too: "
+msgstr "Избриши ги непрочитаните елементи исто така: "
+
+#: admin/items.php:56
+msgid "Do not delete items tagged... "
+msgstr "Не ги бриши елементите кои се со тагови... "
+
+#: admin/items.php:58
+msgid "(Enter <strong>*</strong> to keep all tagged items)"
+msgstr "(Внеси <strong>*</strong>  за да ги задржиш сите елементи со тагови)"
+
+#: admin/items.php:96
+msgid "Invalid pruning period"
+msgstr ""
+
+#: admin/items.php:245
+#, php-format
+msgid "Warning: you are about to delete %s items (of %s)"
+msgstr "Внимание: вие ќе ги избришете %s елементите (од %s)"
+
+#: admin/items.php:258
+msgid "oops, no period specified"
+msgstr "oops, нема специфицирано период"
+
+#: admin/opml.php:38
+msgid "OPML:"
+msgstr "OPML:"
+
+#: admin/opml.php:42
+msgid "Import OPML:"
+msgstr "Импортирај OPML:"
+
+#: admin/opml.php:46
+msgid "... from URL:"
+msgstr "... од URL:"
+
+#: admin/opml.php:52
+msgid "... from File:"
+msgstr "... од фајл:"
+
+#: admin/opml.php:63
+msgid "Import new feeds and:"
+msgstr "Импортирај нови фидови и:"
+
+#: admin/opml.php:66
+msgid "... merge them with the existing ones."
+msgstr ""
+
+#: admin/opml.php:70
+msgid "... add them to the folder:"
+msgstr "... додај го потоа во папка:"
+
+#: admin/opml.php:75
+msgid "... replace all existing feeds and items."
+msgstr "... замени ги сите постоечки фидови и елементи."
+
+#: admin/opml.php:107 admin/opml.php:109
+msgid "Export OPML:"
+msgstr "Експортирај OPML:"
+
+#: admin/opml.php:110
+msgid "Export"
+msgstr "Експортирај"
+
+#: admin/opml.php:120
+msgid "XML Dump:"
+msgstr "XML Dump:"
+
+#: admin/opml.php:122
+msgid "Dump your Gregarius installation to XML"
+msgstr ""
+
+#: admin/opml.php:123
+msgid "Dump!"
+msgstr "Dump!"
+
+#: admin/plugins.php:86
+msgid "Plugins"
+msgstr "Додатоци"
+
+#: admin/plugins.php:90
+msgid "<p style=\"font-size:small\">Plugins are third-party scripts that offer extended functionalities. More plugins can be downloaded at the <a style=\"text-decoration:underline\"  href=\"http://plugins.gregarius.net/\">Plugin Repository</a>.</p>"
+msgstr "<p style=\"font-size:small\">Додатоците се скрипти кои што ви нудат повеќе функционалности. Повеќе додатоци можат да бидат превземени на <a style=\"text-decoration:underline\" href=\"http://plugins.gregarius.net/\">Plugin Repository</a>.</p>"
+
+#: admin/plugins.php:95
+msgid "Active"
+msgstr "Активирај"
+
+#: admin/plugins.php:96
+msgid "Name"
+msgstr "Име"
+
+#: admin/plugins.php:97
+msgid "Version"
+msgstr "Верзија"
+
+#: admin/plugins.php:98
+msgid "Author"
+msgstr "Автор"
+
+#: admin/plugins.php:100
+msgid "Options"
+msgstr "Опции"
+
+#: admin/plugins.php:102
+msgid "Update Available"
+msgstr "Достапни се надоградувања"
+
+#: admin/plugins.php:171 admin/themes.php:50
+msgid "Check for Updates"
+msgstr "Провери за надградби"
+
+#: admin/plugins.php:202
+msgid "Plugin Options"
+msgstr "Оции за плагините"
+
+#: admin/tags.php:157
+msgid "view"
+msgstr ""
+
+#: admin/tags.php:162 admin/tags.php:163
+msgid "Selected"
+msgstr "Селектирани"
+
+#: admin/tags.php:186 admin/tags.php:187
+msgid "Rename to..."
+msgstr "Преименувај во..."
+
+#: admin/themes.php:56
+msgid "Themes"
+msgstr "Теми"
+
+#: admin/themes.php:58
+msgid "<p style=\"font-size:small\">Themes are made of a set of template files which specify how your Gregarius installation looks.<br />More themes can be downloaded from the <a style=\"text-decoration:underline\"  href=\"http://themes.gregarius.net/\">Themes Repository</a>.</p>"
+msgstr "<p style=\"font-size:small\">Темите се изработено за да го сетирате вашиот изглед на Gregarius. <br /> Повеќе теми можат да бидат превземени од <a style=\"text-decoration:underline\" href=\"http://themes.gregarius.net/\">Themes Repository</a>.</p>"
+
+#: admin/themes.php:90
+msgid "Use this Theme"
+msgstr "Користи ја оваа тема"
+
+#: admin/themes.php:92
+msgid "Active Theme"
+msgstr "Активирај тема"
+
+#: admin/themes.php:100
+msgid "Configure"
+msgstr "Конфигурирај"
+
+#: admin/themes.php:152
+msgid "Theme Options"
+msgstr "Опции за темите"
+
+#: admin/users.php:53
+msgid "Passwords do not match!"
+msgstr "Лозинката не се совпаѓа!"
+
+#: admin/users.php:69
+msgid "<p>No Administrator has been specified yet!</p><p>Please provide an Administrator username and password now!</p>"
+msgstr "<p>Не се специфицирани се уште Администратори!</p><p>Ве молиме внесете корисничко име и лозинка!</p>"
+
+#: admin/users.php:73 admin/users.php:98
+msgid "Username"
+msgstr "Корисничко име"
+
+#: admin/users.php:75 admin/users.php:100
+msgid "Password"
+msgstr "Лозинка"
+
+#: admin/users.php:77
+msgid "Password (again)"
+msgstr "Лозинка (повторно)"
+
+#: admin/users.php:97
+msgid "Please log in"
+msgstr "Те молам логирај се"
+
+#: admin/users.php:102 cls/wrappers/header.php:146 cls/wrappers/header.php:151
+msgid "Login"
+msgstr "Логирај се"
+
+#: ajax.php:81 index.php:216 index.php:217
+msgid "Recent items"
+msgstr "Последни елементи"
+
+#: ajax.php:228 ajax.php:239
+msgid "submit"
+msgstr "Внеси"
+
+#: ajax.php:230
+msgid "..."
+msgstr "..."
+
+#: ajax.php:243
+msgid "cancel"
+msgstr "Откажи"
+
+#: ajax.php:532 ajax.php:539
+msgid "Unread (Set this item\\'s read/unread state)"
+msgstr "Непрочитани (Сетирајте го ова за елементите кои имаат статус на прочитани/непрочитани)"
+
+#: ajax.php:536 ajax.php:543
+msgid "Sticky (Won\\'t be deleted when you prune items)"
+msgstr ""
+
+#: ajax.php:540 ajax.php:547
+msgid "Private (Only administrators can see private items)"
+msgstr "Приватно (Само администраторите можат да ги видат приватните елементи)"
+
+#: ajax.php:544 ajax.php:551
+msgid "Flag (Flags an item for later reading)"
+msgstr "Знаме (Означи го со знаме овој елемент за читање подоцна)"
+
+#: author.php:41 cls/wrappers/item.php:221
+msgid " by "
+msgstr " од "
+
+#: cls/alltags.php:166 feed.php:1031 feed.php:1061 feed.php:1073 tags.php:117
+#: tags.php:121 tags.php:131 tags.php:152 tags.php:170
+msgid "item"
+msgstr "елемент"
+
+#: cls/categories.php:87
+#, php-format
+msgid "<strong>%d</strong> feeds in <strong>%d</strong> categories"
+msgstr "<strong>%d</strong> фидови во <strong>%d</strong> категории"
+
+#: cls/channels.php:97 cls/wrappers/feeds.php:64 feed.php:843 feed.php:847
+#: feed.php:851
+#, php-format
+msgid "<strong id=\"%s\" style=\"%s\">(%d unread)</strong>"
+msgstr "<strong id=\"%s\" style=\"%s\">(%d непрочитани)</strong>"
+
+#: cls/channels.php:200
+#, php-format
+msgid "<strong>%d</strong> items (<strong id=\"fucnt\">%d</strong> unread) in <strong>%d</strong> feeds"
+msgstr "<strong>%d</strong> елементи (<strong id=\"fucnt\">%d</strong> непрочитани) во <strong>%d</strong> фидови"
+
+#: cls/header.php:62
+msgid "unread"
+msgstr "непрочитана"
+
+#: cls/nav.php:62
+msgid "<span>H</span>ome"
+msgstr "<span>Д</span>ома"
+
+#: cls/nav.php:64
+msgid "<span>R</span>efresh"
+msgstr "<span>О</span>свежи"
+
+#: cls/nav.php:66
+msgid "<span>S</span>earch"
+msgstr "<span>Б</span>арај"
+
+#: cls/nav.php:67
+msgid "A<span>d</span>min"
+msgstr "А<span>д</span>мин"
+
+#: cls/search.php:228
+msgid "Results: "
+msgstr "Резултати: "
+
+#: cls/taglist.php:86
+#, php-format
+msgid "<strong>%d</strong> tagged items, in <strong>%d</strong> tags"
+msgstr "<strong>%d</strong> елементи со тагови, во <strong>%d</strong> тагови"
+
+#: cls/update.php:118
+msgid "OK (304 Not modified)"
+msgstr "ОК (304 не е променето)"
+
+#: cls/update.php:122
+msgid "HTTP Timeout (Local cache)"
+msgstr "HTTP Timeout (Локален кеш)"
+
+#: cls/update.php:126
+msgid "OK (Local cache)"
+msgstr "OK (Локален кеш)"
+
+#: cls/update.php:130
+msgid "404 Not Found (Local cache)"
+msgstr "404 Не е пронајдено (Локален кеш)"
+
+#: cls/update.php:134
+msgid "403 Forbidden (Local cache)"
+msgstr ""
+
+#: cls/update.php:143
+msgid "OK (HTTP 200)"
+msgstr "OK (HTTP 200)"
+
+#: cls/update.php:148
+msgid "ERROR"
+msgstr "ГРЕШКА"
+
+#: cls/update.php:183 cls/update.php:245
+#, php-format
+msgid "Updating %d Feeds..."
+msgstr "Ажурирам %d Фидови..."
+
+#: cls/update.php:186 cls/update.php:249
+msgid "Feed"
+msgstr "Фид"
+
+#: cls/update.php:187 cls/update.php:250
+msgid "Status"
+msgstr "Статус"
+
+#: cls/update.php:188 cls/update.php:251 cls/update.php:302 cls/update.php:331
+#: cls/update.php:363
+msgid "New Items"
+msgstr "Нови елементи"
+
+#: cls/wrappers/header.php:142
+#, php-format
+msgid "Logged in as <strong>%s</strong>"
+msgstr "Логирани сте како <strong>%s</strong>"
+
+#: cls/wrappers/header.php:145
+msgid "Not logged in"
+msgstr "Не сте логирани"
+
+#: cls/wrappers/item.php:45
+msgid "Permalink for "
+msgstr "Директен линк за "
+
+#: cls/wrappers/item.php:200
+msgid "Fetched: "
+msgstr ""
+
+#: cls/wrappers/item.php:200
+msgid "Posted: "
+msgstr "Внесено "
+
+#: cls/wrappers/searchform.php:87 cls/wrappers/searchform.php:96
+#: cls/wrappers/toolkit.php:53
+msgid "All"
+msgstr "Сите"
+
+#: feed.php:1371 feed.php:1387 feed.php:1404 index.php:233 index.php:234
+msgid "Mark These Items as Read"
+msgstr "Маркирај го овој елемент како прочитан"
+
+#: index.php:151 index.php:152
+#, php-format
+msgid "Unread items (<strong id=\"ucnt\">%d</strong>)"
+msgstr "Непрочитани елементи (<strong id=\"ucnt\">%d</strong>)"
+
+#: plugins/delicious.php:64
+msgid "no suggestions"
+msgstr "нема сугестии"
+
+#: plugins/delicious.php:108
+msgid "suggestions"
+msgstr "сугестии"
+
+#: plugins/encplayer.php:46 plugins/encplayeralt.php:45
+msgid "play"
+msgstr "пушти"
+
+#: plugins/markallread.php:64 plugins/markallread.php:65
+#: plugins/markallread.php:110 plugins/markallread.php:111
+msgid "Mark This Category as Read"
+msgstr "Маркирај ја оваа категорија како прочитана"
+
+#: plugins/markallread.php:75 plugins/markallread.php:76
+#: plugins/markallread.php:104 plugins/markallread.php:105
+msgid "Mark This Folder as Read"
+msgstr "Маркирај ја оваа папка како прочитана"
+
+#: plugins/markallread.php:86 plugins/markallread.php:87
+#: plugins/markallread.php:98 plugins/markallread.php:99
+msgid "Mark This Feed as Read"
+msgstr "Маркирај го овој фид како прочитан"
+
+#: plugins/sidemenu.php:15
+msgid "Test"
+msgstr ""
+
+#: plugins/stickyflag/stickyflag.php:92 state.php:39
+#: themes/WittySparks_v1.0/mobile/item.php:40
+#: themes/default/mobile/item.php:40
+msgid "Sticky"
+msgstr "Лепливо"
+
+#: plugins/stickyflag/stickyflag.php:100 state.php:36
+msgid "Flagged"
+msgstr "Означено со знаме"
+
+#: search.php:43
+#, php-format
+msgid "%d match for %s"
+msgstr "%d совпаѓања за %s"
+
+#: search.php:43
+#, php-format
+msgid "%d matches for %s"
+msgstr "%d совпаѓања за %s"
+
+#: search.php:51
+#, php-format
+msgid "Search %d items"
+msgstr "Барај %d елементи"
+
+#: search.php:52 test/minisearch.php:46 themes/3panes/searchform.php:5
+#: themes/3panes/searchform.php:25
+#: themes/WittySparks_v1.0/mobile/searchform.php:5
+#: themes/WittySparks_v1.0/mobile/searchform.php:39
+#: themes/WittySparks_v1.0/web/searchform.php:5
+#: themes/WittySparks_v1.0/web/searchform.php:39
+#: themes/default/mobile/searchform.php:5
+#: themes/default/mobile/searchform.php:39 themes/default/web/searchform.php:5
+#: themes/default/web/searchform.php:39 themes/milsi/searchform.php:5
+#: themes/milsi/searchform.php:39 themes/mobile/searchform.php:5
+#: themes/mobile/searchform.php:39 themes/planet/searchform.php:5
+#: themes/planet/searchform.php:39
+msgid "Search"
+msgstr "Барај"
+
+#: tags.php:81 tags.php:82 tags.php:117 tags.php:124 tags.php:132
+msgid "and"
+msgstr "и"
+
+#: tags.php:117 tags.php:122 tags.php:131 tags.php:153 tags.php:171
+msgid "tagged"
+msgstr "тагирани"
+
+#: tags.php:157 tags.php:175
+msgid "Related tags: "
+msgstr "Слични тагови: "
+
+#: tags.php:168
+#, php-format
+msgid "Oops! No items tagged &laquo;%s&raquo; were found."
+msgstr "Oops! Нема елементи со тагови &laquo;%s&raquo; пронајдено."
+
+#: tags.php:178 tags.php:198
+msgid "All Tags"
+msgstr "Сите тагови"
+
+#: themes/3panes/footer.php:5 themes/WittySparks_v1.0/web/footer.php:6
+#: themes/default/web/footer.php:6 themes/milsi/footer.php:4
+#: themes/planet/footer.php:5
+msgid " powered by "
+msgstr " помогнато од "
+
+#: themes/3panes/searchform.php:7
+#: themes/WittySparks_v1.0/mobile/searchform.php:7
+#: themes/WittySparks_v1.0/web/searchform.php:7
+#: themes/default/mobile/searchform.php:7 themes/default/web/searchform.php:7
+#: themes/milsi/searchform.php:7 themes/mobile/searchform.php:7
+#: themes/planet/searchform.php:7
+msgid "Search terms:"
+msgstr "Услови за пребарување:"
+
+#: themes/3panes/searchform.php:10
+#: themes/WittySparks_v1.0/mobile/searchform.php:13
+#: themes/WittySparks_v1.0/web/searchform.php:13
+#: themes/default/mobile/searchform.php:13
+#: themes/default/web/searchform.php:13 themes/milsi/searchform.php:13
+#: themes/mobile/searchform.php:13 themes/planet/searchform.php:13
+msgid "Some terms (OR)"
+msgstr "Некои услови (или)"
+
+#: themes/3panes/searchform.php:12
+#: themes/WittySparks_v1.0/mobile/searchform.php:15
+#: themes/WittySparks_v1.0/web/searchform.php:15
+#: themes/default/mobile/searchform.php:15
+#: themes/default/web/searchform.php:15 themes/milsi/searchform.php:15
+#: themes/mobile/searchform.php:15 themes/planet/searchform.php:15
+msgid "All terms (AND)"
+msgstr "Сите услови (и)"
+
+#: themes/3panes/searchform.php:14
+#: themes/WittySparks_v1.0/mobile/searchform.php:17
+#: themes/WittySparks_v1.0/web/searchform.php:17
+#: themes/default/mobile/searchform.php:17
+#: themes/default/web/searchform.php:17 themes/milsi/searchform.php:17
+#: themes/mobile/searchform.php:17 themes/planet/searchform.php:17
+msgid "Exact match"
+msgstr ""
+
+#: themes/3panes/searchform.php:16
+#: themes/WittySparks_v1.0/mobile/searchform.php:21
+#: themes/WittySparks_v1.0/web/searchform.php:21
+#: themes/default/mobile/searchform.php:21
+#: themes/default/web/searchform.php:21 themes/milsi/searchform.php:21
+#: themes/mobile/searchform.php:21 themes/planet/searchform.php:21
+msgid "Feed:"
+msgstr "Фидови:"
+
+#: themes/3panes/searchform.php:19
+#: themes/WittySparks_v1.0/mobile/searchform.php:27
+#: themes/WittySparks_v1.0/web/searchform.php:27
+#: themes/default/mobile/searchform.php:27
+#: themes/default/web/searchform.php:27 themes/milsi/searchform.php:27
+#: themes/mobile/searchform.php:27 themes/planet/searchform.php:27
+msgid "Order by date, feed"
+msgstr "Подредување по датум, фид"
+
+#: themes/3panes/searchform.php:21
+#: themes/WittySparks_v1.0/mobile/searchform.php:29
+#: themes/WittySparks_v1.0/web/searchform.php:29
+#: themes/default/mobile/searchform.php:29
+#: themes/default/web/searchform.php:29 themes/milsi/searchform.php:29
+#: themes/mobile/searchform.php:29 themes/planet/searchform.php:29
+msgid "Order by feed, date"
+msgstr "Подредување по фид, датум"
+
+#: themes/3panes/searchform.php:22
+#: themes/WittySparks_v1.0/mobile/searchform.php:33
+#: themes/WittySparks_v1.0/web/searchform.php:33
+#: themes/default/mobile/searchform.php:33
+#: themes/default/web/searchform.php:33 themes/milsi/searchform.php:33
+#: themes/mobile/searchform.php:33 themes/planet/searchform.php:33
+msgid "Results per page:"
+msgstr "Резултати по страница:"
+
+#: themes/WittySparks_v1.0/mobile/item.php:19
+#: themes/WittySparks_v1.0/web/item.php:24 themes/default/mobile/item.php:19
+#: themes/default/web/item.php:24 themes/lilina/web/item.php:48
+#: themes/lilina/web/item.php:104
+msgid "Enclosure:"
+msgstr "Прилог:"
+
+#: themes/WittySparks_v1.0/mobile/item.php:19
+#: themes/WittySparks_v1.0/web/item.php:24 themes/default/mobile/item.php:19
+#: themes/default/web/item.php:24 themes/lilina/web/item.php:48
+#: themes/lilina/web/item.php:104
+msgid "download"
+msgstr "превземи"
+
+#: themes/WittySparks_v1.0/mobile/item.php:34
+#: themes/default/mobile/item.php:34
+msgid "Read"
+msgstr "Прочитај"
+
+#: themes/WittySparks_v1.0/mobile/item.php:35
+#: themes/default/mobile/item.php:35
+msgid "Unread"
+msgstr "Непрочитана"
+
+#: themes/WittySparks_v1.0/mobile/nav.php:4 themes/default/mobile/nav.php:4
+msgid "Refresh"
+msgstr "Освежи"
+
+#: themes/WittySparks_v1.0/web/item.php:8
+#: themes/WittySparks_v1.0/web/item.php:9 themes/default/web/item.php:8
+#: themes/default/web/item.php:9
+msgid "Edit Item Properties"
+msgstr "Промени го елементот"
+
+#: themes/WittySparks_v1.0/web/item.php:18 themes/default/web/item.php:18
+#: themes/lilina/web/item.php:42 themes/lilina/web/item.php:98
+msgid "Rating:"
+msgstr "Рејтинг:"
+
+#: themes/WittySparks_v1.0/web/pagination.php:2
+#: themes/default/web/pagination.php:2
+msgid "Skip to page: "
+msgstr ""
+
+#: themes/milsi/feeds.php:4
+#, php-format
+msgid "<strong>%d</strong> items (<strong>%d</strong> unread) in <strong>%d</strong> feeds"
+msgstr "<strong>%d</strong> елементи (<strong>%d</strong> непрочитани) во <strong>%d</strong> фидови"
+
+#: update.php:32
+msgid "Sorry, updating from the web is currently not allowed."
+msgstr "Жалам, ажурирањето од веб моментално не е овозможено."
+
+#: util.php:851 util.php:852 util.php:857 util.php:861
+msgid "Show items: "
+msgstr "Прикажи елементи: "
+
+#: util.php:853 util.php:854 util.php:859 util.php:863
+msgid "Unread only"
+msgstr "Непрочитани само"
+
+#: util.php:854 util.php:855 util.php:860 util.php:864
+msgid "Read and unread"
+msgstr "Прочитани и непрочитани"
+
+#~ msgid "Please follow <a href=\"%s\">this link</a> back to the main page.\n"
+#~ msgstr "Следи го <a href=\"%s\">овој линк</a> за да се вратиш на главната страница.\n"
+
+#~ msgid "Have  a nice day!"
+#~ msgstr "Имајте пријатен ден!"
+
+#~ msgid "(%d items)"
+#~ msgstr "(%d елементи)"
+
+#~ msgid "(%d unread in %d feeds)"
+#~ msgstr "(%d непрочитани во %d фидови)"
+
+#~ msgid "<strong>Oops!</strong> Bad login/password"
+#~ msgstr "<strong>Oops!</strong> Неправилен логин/лозинка"
+
+#~ msgid "Unread items (<span id=\"ucnt\">%d</span>)"
+#~ msgstr "Непрочитани елементи (<span id=\"ucnt\">%d</span>)"
+
+#~ msgid "Create"
+#~ msgstr "Креирај"
+
+#~ msgid "Import file"
+#~ msgstr "Импортирај фајл"
+
+#~ msgid "Keep the most recent items: "
+#~ msgstr "ЗадрKeep the most recent items: "
+
+#~ msgid ""
+#~ "<h1>Not Authorized!</h1>\n"
+#~ "You are not authorized to access the administration interface.\n"
+#~ msgstr ""
+#~ "<h1>Не сте авторизирани!</h1>\n"
+#~ "Вие мора да имате авторизација за пристап во администрациониот интерфејс.\n"
+
+#~ msgid "<p style=\"font-size:small\">Plugins are third-party scripts that offer extended functionalities. More plugins can be downloaded at the <a style=\"text-decoration:underline\" href=\"http://plugins.gregarius.net/\">Plugin Repository</a>.</p>"
+#~ msgstr "<p style=\"font-size:small\">Додатоците се скрипти кои што ви нудат повеќе функционалности. Повеќе додатоци можат да се превземат на <a style=\"text-decoration:underline\" href=\"http://plugins.gregarius.net/\">Plugin Repository</a>.</p>"
+
+#~ msgid "Last update"
+#~ msgstr "Последно ажурирање"
+
+#~ msgid ""
+#~ "<h1>Not Authorized!</h1>\n"
+#~ "You are not authorized to access the administration interface.\n"
+#~ "Please follow <a href=\"%s\">this link</a> back to the main page.\n"
+#~ "Have  a nice day!"
+#~ msgstr ""
+#~ "<h1>Не сте авторизирани!</h1>\n"
+#~ "Вие не сте атризирани за пристап во администрацискиот интерфејс.\n"
+#~ "Ве молиме следете го <a href=\"%s\">овој линк</a> за да се вратите на главната страна.\n"
+#~ "Имајте приватен ден!"
+
+#~ msgid "<strong>Oops!</strong> You are successfully logged in as %s, but you don\\'t have administration privileges. Log in again with administration privileges or follow your way <a href=\"..\">home</a>"
+#~ msgstr "<strong>Oops!</strong> Вие сте успешно логирани како %s, но немате администраторски привилегии. Логирајте се повторно со администраторски привилегии <a href=\"..\">тука</a>"

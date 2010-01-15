@@ -1,0 +1,514 @@
+/*@import url(layout.style);
+*/
+body {
+	text-align: left;
+	color:  #000;
+	background-color: #fff;
+	margin: 10px;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+	font-size:  101%;
+	background: none;
+}
+
+a {
+	color: blue;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: purple;
+}
+
+h2 { 
+	font-size: 1.1em;
+}
+
+h3 { 
+	border-top: 1px solid #6794CF;
+	background: #A0C1EF url(bgItemTitle.png) repeat-x bottom left; 
+	color: #0C305F; 
+	padding-top: 5px; 
+	padding-bottom: 5px;
+	display: none;
+}
+
+h3 a, h3 a:hover {
+	color: #0C305F;
+	text-shadow: #000 2px;
+	display: none;
+}
+
+h4 { 
+	font-size: 0.9em; 
+	display:inline;
+}
+
+h5,h5 input.tagedit { 
+ font-size: 0.7em !important;
+ font-weight: normal !important;
+ color: #666 !important;
+ display:inline;
+}
+
+h4 {
+ border-left: 1px solid #ddd;
+}
+
+/* title settings */
+
+h1 { 
+ font-weight: 900;
+ padding-left:5px;
+ display:none;
+}
+
+h1#top { 
+	font-size: 1.2em;
+}
+
+a:hover,input:hover {color: #336; }
+
+input,select,h4 { color: #000 }
+h5 a { color: inherit }
+
+input { 
+ font-size: small;
+ font-weight: bold; 
+}
+
+label, div#channel_admin span, p.bookmarklet {
+ font-size:small;
+}
+
+div.feedaction input, div.feedaction select, div.feedaction label {
+	font-size: 0.6em;
+}
+
+input.tagedit { font-weight: normal; font-size: smaller;}
+
+ul { 
+ list-style-type:none; 
+}
+
+div#errors ul { list-style-type:square !important;  }
+div#errors { padding: 1em 2em; }
+
+table#configtable li, content.ul {
+   list-style-type:circle; 
+}
+
+div#channels {
+	background: #fff;
+	font-size: 0.8em;
+	z-index: 5;
+ 	border: 1px solid #ccc;
+}
+
+div#channels a {
+	color: #666;
+	text-decoration: none;
+}
+
+div#channels li,div#opml li {
+  border-bottom: 1px solid  #eef;
+  background-color: transparent;
+}
+div#channels div { 
+  margin:0;
+  position:relative;
+}
+div#opml li { border: none }
+
+/* folder items */
+div#channels li, div#channels div {
+ border-bottom: none;
+ font-size: 0.95em;
+}
+
+
+/* folder icon */
+div#opml .folder span {
+ font-size: 150%;
+}
+
+div#channels div {
+	height: 16px;
+}
+
+div#channels div img {
+	display: none;
+}
+
+div#channels div a:first-child {
+	height: 16px;
+	border: 1px solid transparent;
+	background: url(folder.png) no-repeat top left;
+	padding-left: 18px;
+}
+
+/* folder labels */
+.folder span {
+  font-weight:bold;
+  text-transform: capitalize;
+}
+
+
+/* channels and sub channels */
+
+div#channels li.folder:hover { background-color: transparent}
+
+/** the main divs (nav, side, content, footer, ...) inherit this class */
+div.frame {
+ background-color: #fff;
+ border: none;
+}
+
+div#nav {
+	background: #DDD;
+}
+
+div#footer span { 
+ border: none;
+ font-size:  0.7em;
+ color: #777;
+ text-align: center;
+}
+
+#feedcontent img {
+	display:none !important;
+}
+
+li.item.even, tr.even,div#alltags { background-color: #fff; }
+li.item.odd, tr.odd { background-color: #fff; }
+tr.active td { font-weight:900; background-color:#f8f8ff; }
+tr.hilite td { font-weight:900; background-color:#fff; }
+
+h3.collapsed {
+ border: 1px solid #ddd;
+ border-color: #eee;
+ background-color: #f9f9f9;
+}
+  
+
+li.item.unread,h3.collapsed.unread {
+ border-color: #eef;
+ background-color: transparent;
+}
+
+li.item {
+ list-style-type: none;
+ border: none;
+}
+
+li.item .content, li.item .content p {
+	font-size: 11px;
+	line-height: 140%;
+}
+
+li.item h4 a {
+	color: #036;
+}
+
+div#items li.upnav { 
+	text-align:right; 
+	border: none;
+}
+
+div#items li.upnav a {
+ border-left: 1px solid;
+ font-size:  small;
+}
+
+.htlogo {
+	margin: 0 0 0 65px;
+}
+
+div#items {
+	background: transparent;
+}
+
+img { border: none !important; }
+
+.content,.content * {
+ font-size: 11px;
+ line-height: 1.4em;
+}
+
+.item:hover .content a, .item:hover h5 a { border: none; }
+
+th { 
+ background-color: #f4f4f4; 
+ font-weight: bold; 
+}
+
+table#plugintable,table#channeltable,table#foldertable,table#updatetable,table#configtable,.content table {
+ font-size: small;
+}
+
+
+
+table tr:hover td { background-color: #f8f8ff }
+  
+form.markread p, form.markallread { text-align:right; }
+
+form.markallread {
+ text-align:center;
+}
+
+.error,.error_l0 {
+ color: red;
+ font-weight:bold;
+ 
+}
+
+#errors li {
+	font-size: medium !important;
+	line-height: 1.5em;
+}
+
+input, select, textarea {
+ border: 1px solid #ddd;
+ background-color: #fff;
+}
+
+
+input[type="radio"], input[type="hidden"] {
+ border: none;
+ background-color: transparent;
+}
+
+div.readmore {
+ text-align: right;
+ font-size: 0.7em;
+}
+
+
+
+/** from http://css.maxdesign.com.au/listamatic/horizontal11.htm **/
+
+ul.navlist {
+	list-style-type: none;
+	font-size: x-small;
+	font-weight: normal;
+}
+
+ul.navlist li, .bookmarklet {
+ border: none;
+ background-color: transparent;
+}
+
+
+ul.navlist:hover li span { text-decoration:underline}
+
+/* Admin nav */
+
+#channel_admin {
+	position: relative;
+	width: 90%;
+	float: left;
+}
+
+#channel_admin ul.navlist { 
+	margin: 0 0 0 0.3em; 
+	padding: 0 1em;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	width: 100%;
+}
+
+#channel_admin ul.navlist li { 
+ position: relative;
+ display: inline; 
+ float:left;
+ padding: 0.2em 1em;
+ margin: 0 0.35em -1px 0;
+ font-size: x-small;
+ font-weight: 900;
+ letter-spacing: 0.1em;	
+ background-color: transparent;
+ border: 1px solid #ccc;
+ z-index: 1;
+ background: #eee;
+}
+
+#channel_admin ul.navlist li.active {
+  background: #fff;
+  border-bottom:1px solid #fff;
+}
+
+
+/* doubling because IE chokes on the submit selector */
+input[type="submit"]{
+  border: 1px solid #ddd;
+}  
+
+
+input[type="text"]:focus{
+ border-color:#aaa;
+}
+
+ 
+input[type="submit"]:hover {
+ background-color:  #f8f8ff;
+ border-color: #ddf;
+}
+ 
+.navlist li a {
+ text-decoration: none;
+ color: #667;
+ letter-spacing: 0.1em;
+}
+ 
+.navlist li.active a,.navlist li a:hover { color: #336; } 
+
+img.favicon { border:none; }
+
+p.stats { font-size: small; margin-bottom:1em; }
+
+.searchhit { border-bottom: 1px solid; font-weight: 900 }
+
+label, input[type="submit"] { cursor: pointer; }
+
+
+
+
+.box { 
+ border: 1px solid #eef;
+ text-align:center;
+}
+
+span.updateres { 
+  font-weight: bold; 
+}
+span.updateres.ok { color: green }
+span.updateres.ko { color: red }
+
+table#updatetable td.mc.error { color: #700 }
+table#updatetable td.rc { font-weight: bold }
+
+fieldset {  
+  text-align: center; 
+  border:1px solid #ddd;                                                                                             
+}
+fieldset.prune p{ text-align:left }
+.cntr { text-align:center !important}
+
+optgroup { margin: 1em 0 0.2em 0;} 
+legend { font-size:small}
+
+div#alltags {
+ background-color: #f9f9f9;
+ border-color: #eee;
+ text-align:justify;
+
+}
+#alltags a { margin: 15px 10px; vertical-align:middle; line-height: 50px;
+}
+
+
+div#pbholder {
+  border: 1px solid #ccc; 
+  width:99.2%; 
+  text-align:left; 
+  height:1.5em; 
+  padding:0; 
+  margin:auto;
+}
+
+div#pbar {
+   font-size:small; 
+   font-weight: bold; 
+   color: #777; 
+   line-height:1.35em; 
+   width:0%; 
+   background-color: #eee;
+   margin:2px; 
+   padding: 0; 
+   border: 1px solid #bbb;
+}
+
+div.ief {
+   border:1px solid #eee;
+   margin: 0.5em 0;
+   padding: 0.5em 1em;
+}
+div.ief p.sbm { margin-top: 1em }
+
+div.ief p a { 
+   font-size:small;
+   margin: 0 1em 0 0; 
+   padding: 0.1em 0.8em;
+}
+
+div.ief p a:hover { background-color: #e8e8ff; }
+
+div.ief form,div.ief form p { padding:0;margin:0}
+
+#opmlimport{ text-align: left !important; }
+
+span.vr { border-left:2px solid #ccc;margin: 0 1em; }
+
+#loginfo { 
+	font-size: 0.7em; 
+	background-color: transparent;
+	border: none;	
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* styles for the star rater */
+/*
+div.rating { height: 25px; display: block !important;}
+div.rating h5 { display: inline !important; }
+ul.rr{
+	list-style:none;
+	margin: 3px 0 0 1em;
+	padding:0px;
+	width: 100px;
+	height: 21px !important;
+	position: relative !important; 
+	top: -1.2em; 
+	background: url(./media/sr.gif) top left repeat-x;
+	display:inline !important;
+}
+.rr li{
+	padding:0px !important;
+	margin:0px !important;
+	height: 21px;
+	float: left;
+}
+.rr li a{
+	display:block;
+	width:20px;
+	height: 20px;
+	text-decoration: none;
+	text-indent: -9000px;
+	z-index: 20;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	background-image:none;
+}
+
+.rr li a:hover,.rr li.current a{
+	background: url(./media/sr.gif) 0px -20px repeat-x;
+	z-index: 1;
+	left: 0px;
+}
+.rr a.r1{ left: 0px; }
+.rr a.r1:hover,.rr li.current a.r1{ width:20px; }
+
+.rr a.r2{ left:20px; }
+.rr a.r2:hover, .rr li.current a.r2{ width: 40px; }
+
+.rr a.r3{ left: 40px; }
+.rr a.r3:hover, .rr li.current a.r3 {width: 60px; }
+
+.rr a.r4{ left: 60px; }
+.rr a.r4:hover, .rr li.current a.r4 { width: 80px; }
+
+.rr a.r5{ left: 80px; }
+.rr a.r5:hover, .rr li.current a.r5 { width: 100px; }
+
+*/
