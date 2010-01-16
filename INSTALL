@@ -1,8 +1,7 @@
 REQUIREMENTS
-
 	   
-  Gregarius requires a relatively up-to-date PHP installation (>= 4.3.0) 
-  with xml (expat) support. It works fairly well with PHP5.
+  Requires a relatively up-to-date PHP installation (>= 4.3.0) 
+  with xml (expat) support. Works fairly well with PHP5.
   
   Your PHP installation must support socket operations. See: 
   http://ch2.php.net/manual/en/function.fsockopen.php
@@ -19,7 +18,7 @@ QUICK START
 	the sourceforge.net project site.
 	http://sourceforge.net/project/showfiles.php?group_id=98845
    
-    3.  Unpack the Gregarius package inside your web directory:
+    3.  Unpack inside your web directory:
         
         1.  If you are installing from a tar.gz archive:
 
@@ -77,9 +76,14 @@ QUICK START
 	into the "Add a feed" field. Alternatively you can import a
 	list of feeds using the OPML import feature.
    
-   8.   This version of Gregarius comes with default password
-	protection, however you may wish to to strengthen it by using
-	a .htaccess file. 
+   8.   Comes with default password protection, however you may wish to 
+	strengthen it by using a .htaccess file. 
         
 	See http://wiki.gregarius.net/index.php/Password_Protection
 	for this purpose.
+
+ABOUT
+
+Swift River/Haiti Tracker is a forked project.  It's core software was Gregarious, 
+an RSS reader that seems to have been abandoned by the core developer in 2008.  You
+can read more about Gregarious at http://wiki.gregarius.net
