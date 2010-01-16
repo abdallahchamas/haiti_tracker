@@ -22,13 +22,12 @@ h4 {
   padding: 0 0.2em;
 }
 
-/* Header 5 */
-
 h5 {
  margin:0 0 0.3em 0;
  padding:0;
  display: block;
 }
+
 
 h5.il { display: inline !important }
 
@@ -37,33 +36,8 @@ input {
  vertical-align: middle;
 }
 
-/* Header 6 */
 
-h6 {
- margin:0 0 0.3em 0;
- padding:0;
- display: block;
- font-size: 10px;
-}
-
-h6 a {
- color: #666666;
-}
-
-h6.il { display: inline !important }
-
-.tag {
- color: #000000;
- font-size:10px;
-}
-
-input { 
- margin: 3px;
- vertical-align: middle;
-}
-
-
-div#channels,ul#sidemenu {
+div#channels, ul#sidemenu, ul.sidemenu {
  clear:left;
  width: 280px;
  float: left;
@@ -73,37 +47,30 @@ div#channels,ul#sidemenu {
  voice-family:inherit;
  width:250px;
 }
-ul#sidemenu { margin: 0 0 1px 0.3em; }
+#admin_channels ul.sidemenu {
+	width:100%;
+}
 
-#sidemenu li { 
+
+ul#sidemenu,ul.sidemenu { margin: 0 0 0 0.3em; }
+
+#sidemenu li,.sidemenu li { 
  position: relative;
  display: inline; 
  float:left;
+ background-color: white;
+ border: 1px solid #ccc;
+ border-bottom:none;
  padding: 0.2em 0.7em;
  margin: 0 0.08em;
  margin-bottom: -0.15em;
- font-size: x-small;
+ font-size: small;
  font-weight: 900;
- letter-spacing: 0.1em;	
- background-color: transparent;
- border: 1px solid #ccc;
- border-bottom:none;
- z-index: 1;
+ letter-spacing: 0.1em;
 }
 
-#sidemenu li.active {
-  background: #DDD;
-}
-
-#sidemenu li a { 
-	color: #aaa; 
-	padding: 4px;
-	text-decoration: none;
-}
-
-#sidemenu li.active a,#sidemenu li a:hover  { 
-	color: #000;
-}
+#sidemenu li a,.sidemenu li { color: #aaa; }
+#sidemenu li.active a,#sidemenu li a:hover,.sidemenu li.active a,.sidemenu li a:hover  { color: black }
 
 div#channels div { margin:0; padding:1em 0 0 0;}
 
@@ -120,13 +87,13 @@ div#channels li, div#opml li {
 }
 
 #opmlimport {
-  display:inline;
+	display:inline;
 }
 
 /* folder items */
 
 div#channels li ul li, #channels ul.fexpanded li {
-  padding-left: 10px; 
+ padding-left: 10px; 
 }
 
 /* folder icon */
@@ -225,7 +192,7 @@ div#items li.upnav a {
 div.content {margin-top: 1em; }
 
 /* images inside posts */
-div.content img { display: inline; }
+div.content img { display: block; }
 div#items img.favicon { display: inline; }
 
 
@@ -247,26 +214,56 @@ table#channeltable,table#foldertable,table#updatetable,table#configtable {
  width: 99.2%;
 }
 
+table#configtable caption{
+ margin: 0 0 -18px 0;
+}
+
 table#foldertable { width: auto }
 
 td>input[type="text"] { width: 100%; }
 
-form#channeledit input { display:block; }
+fieldset#channeleditfs {
+	display:block;
+	width:100%;
+	padding: 1em;
+	text-align:left;
+	width: 45%; 
+	float: left;
+}
+
+fieldset#channeleditpropfs {
+	text-align:left;
+	float:left;
+	display:block;
+	width: 47%;
+	font-size:small;
+}
+
+form#channeledit p{
+	margin: 0 0 0.7em 0;
+}
+
+p#rss_input_allowupdates_options input {
+	display:inline !important;
+}
+
+p#rss_input_allowupdates_options label {
+	display:inline !important;
+	margin-right: 1em;
+}
+
+form#channeledit input, table#tagtable label { display:block; }
 
 form#channeledit input[type="text"] {
   display:block;
-  width: 50%;
+  width: 100% !important;
 }
 
 div.feedaction {
    padding:0;
    margin:0;
    text-align:right;
-	margin-bottom: -50px;
-}
-
-div.feedaction, div.feedaction form, div.feedaction p, div.feedaction.withmargin #frmShow  {
-   display:inline;	
+   display:block;
 }
 
 /** this rule is hidden from IE6 and below as it messes the rendering */
@@ -283,10 +280,21 @@ div.feedaction.withmargin {
  margin-bottom: 0.8em;
 }
 
+div.feedaction.withmargin form {
+ display: inline;
+}
+
+div.feedaction.withmargin form p {
+ display: inline;
+}
+
+div.feedaction.withmargin #frmShow {
+ display: block;
+}
 
 form#frmShow { margin-bottom: 0.4em !important; }
 
-#items h2 { margin: 0 0 5px 12px; clear:right}
+#items h2 { margin-bottom: 10px; clear:right}
 
 p.error {
  color: red;
@@ -304,7 +312,7 @@ div.readmore {
 /** from http://css.maxdesign.com.au/listamatic/horizontal11.htm **/
 
 ul.navlist {
- padding-bottom: 15px; 
+ padding-bottom: 25px; 
  margin: 0;
 }
  
@@ -321,6 +329,12 @@ ul.navlist li {
  height: 1.3em;
  margin: 2px 2px 0 5px;
  padding: 0.05em 0.2em;
+}
+
+div#channels_admin_menu {
+	margin:0; padding: 0.5em;
+	display:block;
+	clear:left;
 }
 
 /* doubling because IE chokes on the submit selector */
@@ -404,3 +418,34 @@ div#alltags {
 	float: right;  
 	padding: 0.2em 0.5em;
 }
+
+/** admin dashboard **/
+#db_main {
+ width: 72%;
+ float:left;
+}
+
+#db_main .item { padding: 1em; }
+#db_main h4, .db_side h4  { border: none !important; margin-left: 0; padding-left:0 }
+
+div.db_side {
+ width: 24%;
+ margin: 0 1em 10px 73%;
+ padding: 1em;
+ border-color: #eef;
+ background-color: #f8f8ff;
+}
+
+
+.db_side h3 { border:none; padding: 0; margin: 0}
+.db_side ul { list-style-type: square; margin: 0 0 2em 0 }
+.db_side li {
+	margin: 1em 0 1em 1em;
+	padding: 0 0.2em;
+	color: #ccc; 
+}
+.db_side li h5 a {
+	color: #666 !important; 
+}
+.db_side li h5 a:hover { color: #333 !important }
+

@@ -51,6 +51,13 @@ h5,h5 input.tagedit {
  display:inline;
 }
 
+h6,h6 input.tagedit { 
+ font-size: 0.7em !important;
+ font-weight: normal !important;
+ color: #666 !important;
+ display:inline;
+}
+
 h4 {
  border-left: 1px solid #ddd;
 }
