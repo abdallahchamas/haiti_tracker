@@ -569,8 +569,12 @@ function ajaxUpdateJavascript () {
     }
     function ajaxUpdateCleanup_cb(dummy) {}
 
+/**
+ * Removes Duplicates
+ */
+
     function redirect() {
-        document.location = "index.php";
+        document.location = "optimize.php";
     }
 
     function ajaxUpdate(batch) {
