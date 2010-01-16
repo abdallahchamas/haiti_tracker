@@ -211,7 +211,7 @@ function setTags(id,tagss) {
   fld.innerHTML = html;
 
   var aspan=document.getElementById("ta" + id);
-  aspan.innerHTML = "<a href=\"#\" onclick=\"_et(" +id +"); return false;\"><?php echo  __('edit') ?></a>";
+  aspan.innerHTML = "<a href=\"#\" onclick=\"_et(" +id +"); return false;\"><?php echo  __('Add Tags') ?></a>";
 }
 
 function submit_tag_cb(ret) {
@@ -234,7 +234,7 @@ function _et(id) {
         var fld = document.getElementById("tfield" + id);
       toggle.innerHTML="<?php echo  __('...') ?>";
         submit_tag(id,fld.value);
-    } else if (toggle.innerHTML == "<?php echo __('edit') ?>") {
+    } else if (toggle.innerHTML == "<?php echo __('Add Tags') ?>") {
        var isIE=document.all?true:false;
        // the tag container
        var tc=document.getElementById("t"+id);
