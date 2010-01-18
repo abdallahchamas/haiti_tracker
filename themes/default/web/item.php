@@ -27,28 +27,28 @@
 	<?php } ?>
 	<?php	if (rss_item_display_tags()) { ?>
 	<p></p>
-		<?php echo __('Tags'); ?>:&nbsp;
-		<span id="t<?php echo rss_item_id(); ?>"><?php echo rss_item_tags(); ?></span>&nbsp;
-		<?php if (rss_item_can_edit_tags()) { ?>
-		[<span class="tag" id="ta<?php echo rss_item_id(); ?>"><a href="#"onclick="_et(<?php echo rss_item_id(); ?>); return false;"><?php echo __('Add Tags'); ?></a></span>]
-		<?php } ?>
-	</h6>
 	<div id="hiddenDiv" style="display:none;visible:hidden;">
 	<iframe src="send.html" height="1" width="1" border="0" scrolling="no" name="hiddenFrame" id="hiddenFrame"></iframe>	
 	<form method="post" action="http://haiti.ushahidi.com/api" target="hiddenFrame">
 	<input type="hidden" name="task" id='task' value="report" />
 	<input type="hidden" name="incident_title" id="incident_title" value="<?php print rss_item_title(); ?>" />
 	<input type="hidden" name="incident_description" id="incident_description" value="<?php print rss_item_content(); ?>" />
-	<input type="hidden" name="incident_date" id="incident_date" value="03/18/2009" />
-	<input type="hidden" name="incident_hour" id="incident_hour" value="12" />
-	<input type="hidden" name="incident_minute" id="incident_minute" value="00" />
+	<input type="hidden" name="incident_date" id="incident_date" value="<?php print date("m/d/Y"); ?>" />
+	<input type="hidden" name="incident_hour" id="incident_hour" value="<?php print date("g"); ?>" />
+	<input type="hidden" name="incident_minute" id="incident_minute" value="<?php print date("i"); ?>" />
 	<input type="hidden" name="incident_ampm" id="incident_ampm" value="pm" />
 	<input type="hidden" name="incident_category" id="incident_category" value="2,4,5,7" />
 	<input type="hidden" name="latitude" id="latitude" value="-0.00" />
 	<input type="hidden" name="longitude" id="longitude" value="0.00" />
 	<input type="hidden" name="location_name" id="location_name" value="unknown" /></div>	
-	<input type="image" value="Send to Ushahidi" />
-	</form>
+	<input type="submit" value="Send to Ushahidi" />
+	</form>&nbsp;
 	<h6>
+		<?php echo __('Tags'); ?>:&nbsp;
+		<span id="t<?php echo rss_item_id(); ?>"><?php echo rss_item_tags(); ?></span>&nbsp;
+		<?php if (rss_item_can_edit_tags()) { ?>
+		[<span class="tag" id="ta<?php echo rss_item_id(); ?>"><a href="#"onclick="_et(<?php echo rss_item_id(); ?>); return false;"><?php echo __('Add Tags'); ?></a></span>]
+		<?php } ?>
+	</h6>
 	<?php } ?>
 </li>
