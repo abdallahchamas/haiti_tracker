@@ -11,8 +11,9 @@
 	<?php } ?>
 	<?php rss_plugin_hook("rss.plugins.items.beforetitle", rss_item_id()); ?>
 	<h4><?php echo rss_item_content(); ?></h4>
+	<br />
 	<div id="sad<?php echo rss_item_id(); ?>" style="display:none"></div>
-	<h5><?php echo rss_item_date(); ?><?php echo rss_item_author(); ?></h5>
+	<h5><?php echo rss_item_date(); ?><?php echo rss_item_author(); ?>&nbsp;<a href="#">Send to Ushahidi</a></h5>
 	<?php if (rss_item_do_rating()) { ?>
 	<div class="rating">
 		<h5><?php echo __('Rating:'); ?></h5>
